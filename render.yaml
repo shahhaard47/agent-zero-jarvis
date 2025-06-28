@@ -2,7 +2,6 @@ services:
   - type: web
     name: agent-zero
     env: docker
-    dockerImage: frdel/agent-zero-run
     free: true
     plan: free
     port: 80
